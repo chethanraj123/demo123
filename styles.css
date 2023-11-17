@@ -1,0 +1,193 @@
+.vid{
+  width:100%;
+}
+body{background-color:white;}
+
+#demo{font-family: 'Brush Script MT', cursive;
+	text-align:center;
+font-size:10vw;
+font-size:10vh;
+margin :1px;}
+
+.namediv{text-align:center;
+}
+.namefull{margin:0 0 0 0;}
+.name{font-family: 'Brush Script MT', cursive;
+text-align:center;
+color: #f9858b;
+font-size:10vw;
+font-size:10vw;
+ padding:0;
+}
+.Weds{font-family:'Brush Script MT', cursive;
+text-align:center;
+font-size:8vw;
+font-size:8vw;
+margin:0px;
+padding:0;}
+.we{font-family: 'Brush Script MT', cursive;
+text-align:center;
+font-size:7vw;
+font-size:7vh;
+color: #f9858b;
+ padding:0;
+ margin:0;
+}
+.Wed{font-family: 'Brush Script MT', cursive;
+text-align:center;
+font-size:7.5vw;
+font-size:7.5vh;
+padding:0;
+margin:-3% 0 0 0;
+}
+.savedate{text-align:center;
+font-size:3.5vh;
+font-size:3.5vw;
+font-family:luminari, cursive;
+ color: #fff;
+padding:.5% 3% 2% 3%;
+  background-color: #38D2D2;
+  background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25), inset 0px 3px 9px rgba(255, 255, 255, 0.3), inset 0px 1px 1px rgba(255, 255, 255, 0.6), inset 0px -8px 36px rgba(0, 0, 0, 0.3), inset 0px 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2);
+  border-radius: 13px;
+  border: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  cursor: pointer;
+   font-weight: bold;
+}
+.btno{  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:1% 0 3% 0;
+}
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 2% 1.5% 2% 0;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+.namet{font-family: 'Brush Script MT', cursive;
+text-align:center;
+color: #FFD800;
+font-size:9vh;
+font-size:9vw;
+ padding:0;
+}
+.Wedst{font-family:'Brush Script MT', cursive;
+text-align:center;
+font-size:8vh;
+font-size:8vw;
+margin:0px;
+padding:0;}
+.raja, .rani{width:100%}
+
+.rajat, .ranit{font-family: 'Brush Script MT', cursive;
+color: #FFD800;
+display: flex;
+  justify-content: center;
+  align-items: center;
+font-size:9vw;
+font-size:9vw;}
+
+.flex-map{  display: flex;
+  justify-content: space-around;
+  margin-top:3%;
+  }
+.flex-map > div {  text-align: center;
+width: 50%;
+text-align:center;
+}
+.line{width:100%;
+margin-top:7%;}
+.ftn{text-align:center;
+font-family: 'Dancing Script', cursive;
+font-size:12vh;
+font-size:12vw;
+color:#aaa;
+margin:1px;
+padding:0px;
+}
+.haladifont{display:flex;
+  justify-content: center;
+align-items: center;
+
+}
+.haladi{width:100%;
+border: solid #E2C5A8 5px;
+margin:5%;}
+.hld{font-family: 'Dancing Script', cursive;
+font-size: 7vw;
+font-size: 7vh;
+padding:0px 0px 0px 0px;
+margin:0px 0px 0px 7%;
+color:#FFAA33;
+}
+.hldadd{font-family: 'Dancing Script', cursive;
+padding:0px 0px 0px 0px;
+margin:0px 0px 0px 7%;
+color:#aaa;
+font-size:3vw;
+}
+
+.button {
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+padding:0 2% 0 2%;
+  background-color: rgb(0 107 179);
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffff;
+margin:0px 0px 0px 4%;
+  font-weight: bold;
+  border: 3px solid #ffffff4d;
+  outline: none;
+  overflow: hidden;
+  font-size: 2.5vw;
+}
+
+.icon {
+  width: 1.5vw;
+  height: 1.5vh;
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+  transform: scale(1.05);
+  border-color: #fff9;
+}
+
+.button:hover .icon {
+  transform: translate(4px);
+}
+
+.button:hover::before {
+  animation: shine 1.5s ease-out infinite;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  width:;
+  height:;
+  background-image: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0) 30%,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0) 70%
+  );
+  top: 0;
+  opacity: 0.6;
+}
+
